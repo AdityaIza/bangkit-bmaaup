@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Dragon's Gift
+"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"/>
+
+    <ImageView
+        android:id="@+id/detailImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/dragon"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/titleTextView"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/detailImageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="match_parent"
+                android:layout_height="446dp"
+                android:text="Were hard at work on an upcoming update were calling Crownfall, and were excited to get it finished so you can see what weve been working on. We looked at a calendar and noticed it had been more than a few weeks since the Frostivus update, and we not want to make you wait until Crownfall before you got any new content. Luckily, the calendar gods came through with another holiday just in time: Happy Lunar New Year!
+
+People who are born in the Year of the Dragon are known for their generosity, prosperity and good luck. Must be nice. For those of us who don't have a magical dragon granting us gift-giving super powers, we've introduced red enveloped-themed Dragon's Gift, available from now through March 7th. These work exactly how they’re named: treasures that can only be given, and opened by whoever you choose as the recipient."
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

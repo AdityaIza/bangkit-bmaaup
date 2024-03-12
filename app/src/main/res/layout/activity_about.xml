@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewPhoto"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/photo"
+        android:scaleType="centerCrop"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewDevelopedBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by"
+        android:textSize="14sp"
+        android:layout_below="@id/imageViewPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aditya Iza Nurrahman"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewDevelopedBy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="adityaiza56@gmail.com"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dota offlaner who retired early and try learn something new"
+        android:textSize="14sp"
+        android:layout_below="@id/textViewEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/textViewDescription"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+</RelativeLayout>

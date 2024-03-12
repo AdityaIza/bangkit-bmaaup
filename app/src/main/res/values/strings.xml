@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Dota 2</string>
+
+    <string name="heroes_name">Nama</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="search">Pencarian</string>
+    <string name="splash_image_description">Splash Screen Image</string>
+
+    <string-array name="data_name">
+        <item>The Dragons Gift</item>
+        <item>The Frostivus 2023 Update is Here!</item>
+        <item>The Dark Night Before Frostivus</item>
+        <item>Gameplay Update 7.34e and What’s Up Next</item>
+        <item>The International Grand Champion</item>
+        <item>The International Is Here</item>
+        <item>Community Events at The International</item>
+        <item>Between the Lanes: The Sound (Proof Booths) of Silence</item>
+        <item>Smurfing is Not Welcome in Dota</item>
+        <item>The International 2023 Ticket Sales</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Were hard at work on an upcoming update were calling "Crownfall", and were excited to get it finished so you can see what weve been working on. We looked at a calendar and noticed it had been more than a few weeks since the Frostivus update, and we not want to make you wait until Crownfall before you got any new content. Luckily, the calendar gods came through with another holiday just in time: Happy Lunar New Year! </item>
+        <item>Another Frostivus is upon us, and that means King Kringle has awakened from his hibernation under the wine-dark Blood Seas surrounding Frostivus Castle; sent his legions of abducted goblin-child toy miners to dig in his toy mines; hooked up his twin glowing red-eyed direwolves Lumpo and Rupertus to his bone sleigh; and is likely either on top of your house or inside of it right now.</item>
+        <item>Twas Frostivus Eve, and all cross the map,The neutrals were quiet, their camps left unstacked.Wed gorged on a feast of bluehorn and spiced creep,And had just settled in for a peacefunights sleep.</item>
+        <item>After nearly a year of coordination and production, the multi-week, arena-sized monster that is The International 2023 has come to an exciting close. Weve locked up Climate Pledge Arena, weve all seen enough of Spirit Breaker, and weve just shipped Gameplay Update 7.34e. Time for the Dota team to settle down for a long winters nap, and..</item>
+        <item>Congratulations to Team Spirit, Grand Champions at The International 2023 and just the second team ever to claim the Aegis twice. This fearsome squad dropped only two games the entire tournament - finishing with a decisive 3 -0 performance in the Grand Finals to secure their spot as the best Dota team in the world.</item>
+        <item>A truly epic Playoffs weekend has come to a close, and eight teams have clawed their way to a coveted spot at the main event: Team Spirit, Team Liquid, LGD Gaming and Azure Ray in the upper bracket, and Gaimin Gladiators, nouns, BetBoom Team and Virtus.pro in the lower bracket. Congratulations to all eight teams as they vie to capture the Aegis at The International — only at Climate Pledge Arena in Seattle, WA, and now only a day away.</item>
+        <item>Invitations have been sent, plane tickets have been reserved, and our old friends the soundproof booths are undergoing their final maintenance and inspections: In just a few short weeks the first teams arrive in Seattle for The International.</item>
+        <item>Welcome back to Between the Lanes, a blog feature where we let members of our development team walk through some of the challenges, bugfixes, and occasional happy accidents we encounter while working on a game as unique as Dota, and an event as unique as The International.</item>
+        <item>Today, we permanently banned 90,000 smurf accounts that have been active over the last few months. Smurf accounts are alternate accounts used by players to avoid playing at the correct MMR, to abandon games, to cheat, to grief, or to otherwise be toxic without consequence.</item>
+        <item>The International is fast approaching, and for those of you planning on going, we wanted to give you some important dates so you can start planning your trip. Tickets to join the audience live at The International 2023 in Seattle, WA are going on sale August 25th, 2023. Whether you’re planning on attending in person, or hopping on with millions of viewers from around the world to watch our livestream broadcast, join us in cheering on the best Dota teams on the planet as they battle it out for the Aegis.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/dragon</item>
+        <item>@drawable/frostivus</item>
+        <item>@drawable/gift</item>
+        <item>@drawable/patch</item>
+        <item>@drawable/winner</item>
+        <item>@drawable/tournament</item>
+        <item>@drawable/community</item>
+        <item>@drawable/booths</item>
+        <item>@drawable/smurf</item>
+        <item>@drawable/seattle</item>
+        <item>@drawable/photo</item>
+    </integer-array>
+</resources>
