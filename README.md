@@ -17,16 +17,16 @@ Display images in List format with at least 10 different items. Use RecyclerView
 -**Title of the article**
 Overview of the artice (optional)
 
--Bring up the detail page when one of the items is clicked. You can apply a click handler to each RecyclerView item.
+Bring up the detail page when one of the items is clicked. You can apply a click handler to each RecyclerView item.
 
 -**Detail Page**
 Requirement:
 Display images and relevant information on the detail page. 
 
--Relevant information includes the similarity of information displayed on the main page with the detail page.
+Relevant information includes the similarity of information displayed on the main page with the detail page.
 There is a title and image that matches the list
 
--There is a longer description sentence or other additional information
+There is a longer description sentence or other additional information
 Use ScrollView so that the content can still be seen when the application is rotated.
 
 -**About page**
