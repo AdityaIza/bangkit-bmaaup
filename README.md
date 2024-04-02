@@ -10,32 +10,29 @@ Built with : Kotlin, Android Studio, XML, Gradle.
 -------------------------------------------------------------------------------------------
 Features that be added to the application:
 
-Home Page
+-**Home Page**
 Requirements:
 Display images in List format with at least 10 different items. Use RecyclerView to build the list. The information displayed contains :
 
-Title of the article
+-**Title of the article**
+Overview of the artice (optional)
 
-Overview of the article (optional)
+-Bring up the detail page when one of the items is clicked. You can apply a click handler to each RecyclerView item.
 
-Bring up the detail page when one of the items is clicked. You can apply a click handler to each RecyclerView item.
-Detail Page
+-**Detail Page**
 Requirement:
-
 Display images and relevant information on the detail page. 
 
-Relevant information includes the similarity of information displayed on the main page with the detail page.
+-Relevant information includes the similarity of information displayed on the main page with the detail page.
 There is a title and image that matches the list
 
-There is a longer description sentence or other additional information
+-There is a longer description sentence or other additional information
 Use ScrollView so that the content can still be seen when the application is rotated.
 
-About page
+-**About page**
 Terms:
-
 Displays a photo of yourself, name, and email registered with Dicoding.
-
 In accessing the about page, make sure there is a button that can be used to access the page. For how to access it, you can implement :
-By adding a special View element (can be a menu option, button, or tab) that contains the ID "about_page"
+By adding a special View element (can be a menu option, button, or tab) that contains the ID "about_page".
 
-Translated with www.DeepL.com/Translator (free version)
+![Full application dota news UI UX](https://github.com/AdityaIza/bangkit-bmaaup/assets/159633841/c7308473-bfaf-45a2-9784-008d03a5cbe6)
